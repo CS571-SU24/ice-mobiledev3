@@ -85,36 +85,6 @@
 			"response": []
 		},
 		{
-			"name": "Logout",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "X-CS571-ID",
-						"value": "ENTER_YOUR_BID",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "https://cs571api.cs.wisc.edu/rest/su24/hw9/logout",
-					"protocol": "https",
-					"host": [
-						"cs571api",
-						"cs",
-						"wisc",
-						"edu"
-					],
-					"path": [
-						"rest",
-						"su24",
-						"hw9",
-						"logout"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Create Post",
 			"request": {
 				"auth": {
